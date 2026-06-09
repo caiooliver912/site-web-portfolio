@@ -13,7 +13,7 @@
     '<span class="t-prompt-path">~/tools</span>' +
     '<span class="t-prompt-dollar">$</span>';
 
-  //sequência curta pra ficar legal no terminal
+  //sequência curta de comandos pra ficar legal no terminal
   const sequence = [
     { type: 'cmd',   text: './aegis-watch.sh --mode watcher', delay: 600 },
     { type: 'blank', delay: 160 },
