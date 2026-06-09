@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sobre Caio Oliveira — trajetória em tecnologia, cibersegurança e Blue Team. Estudante de Ciência da Computação na CESAR School." />
+  <title>Caio Oliveira — Sobre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="nav__logo" href="../index.html">Caio<span>Oliveira</span></a>
+      <ul class="nav__links" role="list">
+        <li><a href="../index.html" class="nav__link">Início</a></li>
+        <li><a href="sobre.html" class="nav__link nav__link--active" aria-current="page">Sobre</a></li>
+        <li><a href="contato.html" class="nav__link">Contato</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- topo da página sobre -->
+    <section class="page-hero">
+      <div class="container">
+        <p class="section__label">Conheça minha jornada</p>
+        <h1 class="page-hero__title">Sobre mim</h1>
+      </div>
+    </section>
+
+    <!-- texto e foto principais -->
+    <section class="about-expanded section" aria-labelledby="traj-title">
+      <div class="container about-expanded__grid">
+        
+        <!-- bloco da foto -->
+        <div class="about-expanded__photo">
+          <img 
+            src="../img/caio.jpg" 
+            alt="Caio Oliveira — Estudante de Ciência da Computação" 
+            class="profile-img"
+          />
+        </div>
+
+        <!-- bloco do texto -->
+        <div class="about-expanded__text">
+          <h2 id="traj-title" class="section__title">A trajetória até aqui</h2>
+          
+          <p>
+            Minha paixão por tecnologia começou cedo, ainda na infância. 
+            Eu sempre tive muita curiosidade de como os computadores funcionavam, 
+            o que acontecia por trás das telas e como os computadores se comunicavam. 
+            Essa curiosidade intensa me levou para o mundo da programação de computadores. Foi ai que descobri que computação era a área que queria seguir
+          </p>
+
+          <p>
+            Por de trás de cada linha de código que escrevia, descobria alguma coisa nova. Conceitos, bugs, falhas e isso foi me levando cada vez mais perto
+            para o mundo da <strong>cibersegurança</strong>. A ideia de entender como um sistema poderia ter uma brecha tão pequena, 
+            mas que poderia ser explorada por um atacante, me fascinava. No entanto, eu comecei a explorar a área que todos que mergulham em cibersegurança conhecem primeiro: o <strong>Red Team</strong>. Eu adorava a ideia de ser o atacante, de encontrar falhas e explorar sistemas. 
+            Mas com o tempo, percebi que minha verdadeira paixão estava em defender, em proteger os sistemas contra esses ataques. 
+            Foi ai que eu descobri o <strong>Blue Team</strong>, e foi amor à primeira vista. A ideia de ser o defensor, de construir defesas sólidas e proteger os dados das pessoas, me conquistou completamente.
+            Foi nesse momento que decidi focar minha carreira em Blue Team, buscando entender como ameaças reais funcionam e construir soluções para proteger redes e dados.
+
+          </p>
+
+          <p>
+            Sou estudante de <strong>Ciência da Computação</strong> na <strong>CESAR School</strong>, onde estou construindo uma base sólida em computação.
+            Atualmente me dedico a estudar e praticar em labs de segurança defensiva sejam eles focados em monitoramento, resposta a incidentes ou até forense digital.
+            Estou sempre ativo em plataformas como <strong>Let's Defend</strong>, <strong>TryHackMe</strong> e <strong>Blue Team Labs</strong>, onde posso aplicar meus conhecimentos em cenários realistas e aprender com a comunidade de Blue Team.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- meus pontos fortes e onde estudo -->
+    <section class="journey-section section" aria-labelledby="char-title">
+      <div class="container journey-grid">
+        
+        <!-- lista de características -->
+        <div class="journey-card">
+          <p class="section__label">Quem sou eu</p>
+          <h3 id="char-title" class="journey-card__title">Características</h3>
+          <ul class="journey-list" role="list">
+            <li><span class="journey-list__icon">→</span> Muito curioso e apaixonado por aprender</li>
+            <li><span class="journey-list__icon">→</span> Amo investigar e proteger sistemas</li>
+            <li><span class="journey-list__icon">→</span> Gosto de resolver problemas complexos</li>
+            <li><span class="journey-list__icon">→</span> Mente analítica e estruturada</li>
+            <li><span class="journey-list__icon">→</span> Dedicado a entender as raízes de cada ameaça</li>
+            <li><span class="journey-list__icon">→</span> Sempre buscando melhorar minhas habilidades</li>
+          </ul>
+        </div>
+
+        <!-- plataformas que uso para treinar -->
+        <div class="journey-card">
+          <p class="section__label">Aprendizado Contínuo</p>
+          <h3 class="journey-card__title">Onde estudo</h3>
+          <p class="journey-card__desc">
+            Estudo ativamente em plataformas especializadas em Blue Team:
+          </p>
+          <div class="study-platforms">
+            <div class="platform-item">
+              <span class="platform-icon">🛡️</span>
+              <div>
+                Let's Defend
+                <p>Monitoramento SIEM, análise de logs e resposta a incidentes</p>
+              </div>
+            </div>
+            <div class="platform-item">
+              <span class="platform-icon">🎯</span>
+              <div>
+                TryHackMe
+                <p>Desafios práticos de Blue Team, Splunk e ferramentas defensivas</p>
+              </div>
+            </div>
+            <div class="platform-item">
+              <span class="platform-icon">🔍</span>
+              <div>
+                Blue Team Labs
+                <p>Análise forense, detecção de ameaças e investigação de alertas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- skills e formação -->
+    <section class="skills-expanded section" aria-labelledby="skills-title">
+      <div class="container">
+        <p class="section__label">Stack técnico</p>
+        <h2 id="skills-title" class="section__title">Habilidades e Ferramentas</h2>
+        
+        <div class="skills-expanded__grid">
+          
+          <div class="skills-group">
+            <h3 class="skills-group__title">SIEM & Monitoramento</h3>
+            <ul class="skill-tags" role="list" aria-label="Ferramentas de SIEM">
+              <li>Splunk</li>
+              <li>Elastic SIEM</li>
+            </ul>
+          </div>
+
+          <div class="skills-group">
+            <h3 class="skills-group__title">Análise de Rede</h3>
+            <ul class="skill-tags" role="list" aria-label="Ferramentas de análise">
+              <li>Wireshark</li>
+              <li>Tcpdump</li>
+              <li>Suricata</li>
+              <li>Snort</li>
+            </ul>
+          </div>
+
+          <div class="skills-group">
+            <h3 class="skills-group__title">Detecção & Investigação</h3>
+            <ul class="skill-tags" role="list" aria-label="Ferramentas de detecção">
+              <li>Sigma Rules</li>
+              <li>Resposta a Incidentes</li>
+              <li>MITRE ATT&CK</li>
+              
+            </ul>
+          </div>
+
+          <div class="skills-group">
+            <h3 class="skills-group__title">Programação</h3>
+            <ul class="skill-tags" role="list" aria-label="Linguagens">
+              <li>Python</li>
+              <li>Bash/Powershell</li>
+              <li>C</li>
+              <li>C#</li>
+            </ul>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- formação e próximos passos -->
+    <section class="formation-section section" aria-labelledby="form-title">
+      <div class="container formation-grid">
+
+        <div class="formation-card">
+          <span class="formation-card__icon">🎓</span>
+          <h3 id="form-title" class="formation-card__title">Formação</h3>
+          <p>Ciência da Computação</p>
+          <p class="formation-card__subtitle">CESAR School • 1º Período</p>
+          <p class="formation-card__desc">
+            Atualmente estou cursando o primeiro período de Ciência da Computação indo para o 2 período.
+        </div>
+
+        <div class="formation-card">
+          <span class="formation-card__icon">🚀</span>
+          <h3 class="formation-card__title">Oportunidades</h3>
+          <p>Aberto para Estágios</p>
+          <p class="formation-card__subtitle">Blue Team, SOC, Segurança Defensiva</p>
+          <p class="formation-card__desc">
+            Procuro oportunidades onde possa aplicar e aprofundar meus conhecimentos, 
+            sempre aprendendo com profissionais experientes.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- último chamado para ação -->
+    <section class="about-cta section" aria-labelledby="cta-title">
+      <div class="container about-cta__inner">
+        <h2 id="cta-title" class="about-cta__title">Vamos conversar?</h2>
+        <p class="about-cta__desc">Se você tem interesse em colaborações, estágios ou quer conhecer mais sobre meu trabalho, ficarei feliz em conversar.</p>
+        <a href="contato.html" class="btn btn--primary">Entre em contato</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__copy">© <span id="year">2026</span> Caio Oliveira</p>
+      
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
