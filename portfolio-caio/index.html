@@ -127,11 +127,14 @@
 
   <footer class="site-footer">
     <div class="container site-footer__inner">
-      <p class="site-footer__copy">© 2026 Caio Oliveira</p>
+      <p class="site-footer__copy">© <span id="year">2026</span> Caio Oliveira</p>
       
     </div>
   </footer>
 
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
   <script src="js/main.js"></script>
 </body>
 </html>
