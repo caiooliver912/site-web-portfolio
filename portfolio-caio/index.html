@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Caio Oliveira — estudante de Ciência da Computação e cibersegurança com foco em Blue Team." />
+  <title>Caio Oliveira — Blue Team Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegação principal">
+      <a class="nav__logo" href="index.html">Caio<span>Oliveira</span></a>
+      <ul class="nav__links" role="list">
+        <li><a href="index.html" class="nav__link nav__link--active" aria-current="page">Início</a></li>
+        <li><a href="pages/sobre.html" class="nav__link">Sobre</a></li>
+        <li><a href="pages/contato.html" class="nav__link">Contato</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Seção de boas-vindas -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__label">
+            <svg class="shield-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 2L3 6v6c0 5.25 3.75 10.15 9 11.25C17.25 22.15 21 17.25 21 12V6L12 2z" fill="rgba(56,189,248,0.15)" stroke="#38bdf8" stroke-width="1.5" stroke-linejoin="round"/>
+              <path d="M9 12l2 2 4-4" stroke="#38bdf8" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            Blue Team
+          </p>
+          <h1 id="hero-title" class="hero__title">
+            Olá, sou<br/>Caio<br/>Oliveira.
+          </h1>
+          <p class="hero__desc">
+            Estou em constante aprendizado e construindo conhecimento focados em segurança defensiva. Meu objetivo é me tornar um profissional completo de Blue Team, capaz de proteger sistemas e redes contra ameaças cada vez mais sofisticadas.
+          </p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="pages/contato.html">Entre em contato</a>
+          </div>
+        </div>
+        <div class="hero__terminal" aria-hidden="true">
+          <div class="term-bar">
+            <div class="term-bar__dots">
+              <span class="dot dot--red"></span>
+              <span class="dot dot--yellow"></span>
+              <span class="dot dot--green"></span>
+            </div>
+            <span class="term-bar__title">caio@blueteam: ~/tools</span>
+          </div>
+          <div class="term-body" id="term-body">
+            <!-- conteúdo do terminal linux, gerado pelo JavaScript -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <div class="about__text">
+          <h2 id="about-title" class="section__title">Total foco em defender</h2>
+          <p>
+            Estou em constante evolução, aprendo e aplico conceitos de defesa para deixar redes
+            e sistemas mais preparados.
+          </p>
+          <p>
+            Gosto de estudar logs, entender alertas e testar detecções. Sempre buscando usar
+            o que já sei de forma prática.
+          </p>
+          <p>
+            Essas são algumas das minhas áreas de interesse e foco de estudo atual:
+          </p>
+          <ul class="skill-tags" role="list">
+            <li>Centro de Operações de Segurança (SOC) </li>
+            <li>Resposta a incidentes</li>
+            <li>Forense Digital</li>
+          </ul>
+        </div>
+        <div class="about__visual" aria-hidden="true">
+          <div class="shield-display">
+            <span class="shield-ring shield-ring--1"></span>
+            <span class="shield-ring shield-ring--2"></span>
+            <span class="shield-ring shield-ring--3"></span>
+            <svg class="shield-main" viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+              <defs>
+                <linearGradient id="sg1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%"   stop-color="#7dd3fc" />
+                  <stop offset="100%" stop-color="#0284c7" />
+                </linearGradient>
+                <linearGradient id="sg2" x1="0%" y1="0%" x2="0%" y2="100%">
+                  <stop offset="0%"   stop-color="rgba(255,255,255,0.18)" />
+                  <stop offset="100%" stop-color="rgba(255,255,255,0)" />
+                </linearGradient>
+                <filter id="sglow">
+                  <feDropShadow dx="0" dy="0" stdDeviation="6" flood-color="#38bdf8" flood-opacity="0.6"/>
+                </filter>
+              </defs>
+              <path d="M50 8 L14 24 L14 58 C14 82 32 102 50 112 C68 102 86 82 86 58 L86 24 Z"
+                fill="#0369a1" opacity="0.4" transform="translate(2,4)" />
+              <path d="M50 8 L14 24 L14 58 C14 82 32 102 50 112 C68 102 86 82 86 58 L86 24 Z"
+                fill="url(#sg1)" filter="url(#sglow)" />
+              <path d="M50 8 L14 24 L14 58 C14 82 32 102 50 112 C68 102 86 82 86 58 L86 24 Z"
+                fill="url(#sg2)" />
+              <path d="M50 16 L20 29 L20 58 C20 78 35 96 50 104 C65 96 80 78 80 58 L80 29 Z"
+                fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1.2" />
+              <path d="M35 60 L45 72 L66 48"
+                stroke="white" stroke-width="5.5"
+                stroke-linecap="round" stroke-linejoin="round"
+                fill="none" opacity="0.95" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__copy">© 2026 Caio Oliveira</p>
+      
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
